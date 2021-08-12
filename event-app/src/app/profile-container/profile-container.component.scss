@@ -4,13 +4,8 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
 }
 
 #container p {
@@ -24,4 +19,15 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-icon {
+  font-size: 64px;
+}
+
+#profile-overview {
+  margin: 20px;
+}
+
+#profile-details {
 }
