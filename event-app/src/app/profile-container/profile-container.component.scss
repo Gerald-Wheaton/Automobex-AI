@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
 }
 
@@ -46,5 +46,9 @@ ion-card {
 }
 
 #location {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+ion-label {
+  color: white;
 }
