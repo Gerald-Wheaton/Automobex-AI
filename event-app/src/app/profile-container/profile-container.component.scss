@@ -54,5 +54,9 @@ ion-label {
 }
 
 ion-card-title {
-  color: white;
+  color: var(--ion-color-secondary);
+}
+
+ion-chip {
+  --background: var(--ion-color-primary);
 }
