@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 30%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -21,7 +21,7 @@
   text-decoration: none;
 }
 
-ion-icon {
+#profile-pic {
   font-size: 64px;
 }
 
@@ -29,5 +29,22 @@ ion-icon {
   margin: 20px;
 }
 
-#profile-details {
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+#interests {
+  margin: 10px;
+}
+
+ion-card {
+  margin: 5% 20%;
+}
+
+#location {
+  margin-top: 20px;
 }

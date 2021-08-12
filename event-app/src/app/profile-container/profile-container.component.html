@@ -1,5 +1,5 @@
 <div id="container">
-  <ion-icon name="person"></ion-icon>
+  <ion-icon name="person" id="profile-pic"></ion-icon>
   <div id="profile-overview">
     <ion-text color="secondary">
       <h1>{{ name }}</h1>
@@ -7,13 +7,30 @@
     <ion-text>
       <p>{{ email }}</p>
     </ion-text>
-  </div>
-  <div id="profile-details">
     <div id="location">
-      <ion-icon name="locate"></ion-icon>
-    </div>
-    <div id="interests">
-
+      <ion-icon name="location-outline"></ion-icon>
+      <p>{{ location }}</p>
     </div>
   </div>
+  <ion-card>
+    <ion-item>
+      <ion-card-title slot="center">Personal Interests</ion-card-title>
+      <ion-button fill="outline" slot="end" (click)="functionName()">Edit</ion-button>
+    </ion-item>
+    <ion-card-header>
+      <ion-card-title>Personal Interests</ion-card-title>
+    </ion-card-header>
+  
+    <div id="interests">
+      <ion-chip>
+        <ion-label>Eco Initiatives</ion-label>
+      </ion-chip>
+      <ion-chip>
+        <ion-label>Althetics</ion-label>
+      </ion-chip>
+      <ion-chip>
+        <ion-label>Food</ion-label>
+      </ion-chip>
+    </div>   
+  </ion-card>
 </div>

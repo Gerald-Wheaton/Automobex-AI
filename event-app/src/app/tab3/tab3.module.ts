@@ -7,12 +7,14 @@ import { Tab3Page } from './tab3.page';
 import { ProfileContainerComponentModule } from '../profile-container/profile-container.module';
 
 import { Tab3PageRoutingModule } from './tab3-routing.module';
+import { AutomobexHeaderComponentModule } from '../automobex-header/automobex-header.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    AutomobexHeaderComponentModule,
     ProfileContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab3Page }]),
     Tab3PageRoutingModule,

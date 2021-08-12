@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProfileContainerComponent implements OnInit {
   @Input() name: string;
   @Input() email: string;
+  @Input() location: string;
 
   constructor() { }
 
