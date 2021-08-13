@@ -1,0 +1,58 @@
+#container {
+  text-align: center;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#profile-pic {
+  margin-top: 50px;
+  font-size: 64px;
+}
+
+#profile-overview {
+  margin: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+#interests {
+  margin: 10px;
+}
+
+ion-card {
+  margin: 5% 20%;
+}
+
+#location {
+  margin-top: 30px;
+}
+
+ion-label {
+  color: white;
+}
+
+ion-card-title {
+  color: var(--ion-color-secondary);
+}
+
+ion-chip {
+  --background: var(--ion-color-primary);
+  margin-top: 15px;
+}
