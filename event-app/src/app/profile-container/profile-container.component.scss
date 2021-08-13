@@ -2,12 +2,12 @@
   text-align: center;
 }
 
-#container h1 {
+#container h2 {
   font-size: 44px;
 }
 
 #container p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
 
   color: #8c8c8c;
@@ -61,8 +61,22 @@ ion-chip {
   margin-top: 15px;
 }
 
+#prof-pic {
+  background-color: var(--ion-color-primary);
+}
+
 img {
   border-radius: 100%;
   height: 150px;
   margin-top: 50px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+div h1 {
+  color: white;
+  font-size: 44px;
 }

@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { ProfileContainerComponent } from './profile-container.component';
+import { InterestsModalComponentModule } from '../interests-modal/interests-modal.module';
 
 @NgModule({
-  imports: [ CommonModule, FormsModule, IonicModule],
+  imports: [ CommonModule, FormsModule, IonicModule, InterestsModalComponentModule],
   declarations: [ProfileContainerComponent],
   exports: [ProfileContainerComponent]
 })
