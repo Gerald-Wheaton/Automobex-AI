@@ -1,21 +1,23 @@
-<div id="container">
-  <img src="../../assets/bob_schwartz.jpg">
+<div id="container">  
+  <h1>Profile</h1>
+    <img src="../../assets/bob_schwartz.jpg">
+
   <div id="profile-overview">
-    <ion-text color="primary">
-      <h1>{{ name }}</h1>
+    <ion-text>
+      <h2>{{ name }}</h2>
     </ion-text>
     <ion-text>
       <p>{{ email }}</p>
     </ion-text>
     <div id="location">
-      <ion-icon name="location-outline" color="tertiary"></ion-icon>
+      <ion-icon name="location" color="tertiary" size="large"></ion-icon>
       <p>{{ location }}</p>
     </div>
   </div>
   <ion-card>
     <ion-item>
       <ion-card-title slot="center">Personal Interests</ion-card-title>
-      <ion-button fill="outline" slot="end" (click)="openModal()">Edit</ion-button>
+      <ion-button fill="outline" slot="end" (click)="presentPopover()">Edit</ion-button>
     </ion-item>
     <ion-card-header>
       <ion-card-title>Personal Interests</ion-card-title>

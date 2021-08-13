@@ -24,3 +24,32 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.my-custom-class {
+    --height: 70%;
+    --width: 80%;
+    --max-height: 90%;
+    --max-width: 80%;
+}
+
+.my-custom-class .label {
+    color: var(--ion-color-tertiary);
+}
+
+.my-custom-class #container {
+    padding: 20px;
+}
+
+.my-custom-class #searchInput {
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 50px;
+}
+
+.my-custom-class .space {
+    margin-bottom: 40px;
+}
+
+.my-custom-class #close {
+    color: gray;
+}
