@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
-import { HomeContainerComponentModule } from '../home-container/home-container.module';
+
+import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { AutomobexHeaderComponentModule } from '../automobex-header/automobex-header.module';
@@ -14,7 +15,7 @@ import { AutomobexHeaderComponentModule } from '../automobex-header/automobex-he
     CommonModule,
     FormsModule,
     AutomobexHeaderComponentModule,
-    HomeContainerComponentModule,
+    ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],
   declarations: [Tab1Page]
