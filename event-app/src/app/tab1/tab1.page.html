@@ -1,13 +1,7 @@
 <app-automobex-header></app-automobex-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Explore</ion-title>
-      
-    </ion-toolbar>
-  </ion-header>
-
+  
   <ion-searchbar></ion-searchbar>
   <ion-label class="ion-margin-start ion-margin-bottom">Movies</ion-label>
   <ion-slides>
@@ -19,6 +13,7 @@
 
   <ion-card-header>
     <ion-card-subtitle>123 Googleberry St.</ion-card-subtitle>
+    <ion-card-subtitle >Sunday 4pm</ion-card-subtitle>
     <ion-card-title>Jumanji movie night</ion-card-title>
   </ion-card-header>
   <ion-card-content>
@@ -29,16 +24,24 @@
   </ion-slide>
 
     <ion-slide>
-      <img src="./slide-3.png"/>
-      <h2>What is Appflow?</h2>
-      <p><b>Appflow</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new level of app development agility to mobile dev teams.</p>
+      <ion-card>
+       
+        <ion-card-header>
+          <div class="ion-justify-content-center">
+            <ion-img [src]="'https://ichef.bbci.co.uk/news/976/cpsprodpb/13A26/production/_106022408_avnegers976.jpg'"></ion-img>
+          </div>
+        
+          <ion-card-subtitle class="ion-margin-top">123 Road St.</ion-card-subtitle>
+          <ion-card-subtitle >Friday 6pm</ion-card-subtitle>
+          <ion-card-title>Avengers: Endgame</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Join us for movie night where we will be watching Endgame!
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
 
-    <ion-slide>
-      <img src="./slide-4.png"/>
-      <h2>Ready to Play?</h2>
-      <ion-button fill="clear">Continue <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
-    </ion-slide>
+  
 
   </ion-slides>
 
@@ -54,6 +57,7 @@
       
         <ion-card-header>
           <ion-card-subtitle>Virtual</ion-card-subtitle>
+          <ion-card-subtitle >Friday 8pm</ion-card-subtitle>
           <ion-card-title>Among Us</ion-card-title>
         </ion-card-header>
         <ion-card-content>
@@ -63,22 +67,25 @@
     </ion-slide>
 
     <ion-slide>
-      <img src="./slide-2.png"/>
-      <h2>What is Ionic?</h2>
-      <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
+      <ion-card>
+       
+        <ion-card-header>
+          <div class="ion-justify-content-center">
+            <ion-img [src]="'https://i.ytimg.com/vi/ymCDdrMKPrY/maxresdefault.jpg'"></ion-img>
+          </div>
+        
+          <ion-card-subtitle class="ion-margin-top">Virtual</ion-card-subtitle>
+          <ion-card-subtitle >Wednesday 9pm</ion-card-subtitle>
+          <ion-card-title>Little Big Planet</ion-card-title>
+          
+        </ion-card-header>
+        <ion-card-content>
+          We will have a great time playing!
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
 
-    <ion-slide>
-      <img src="./slide-3.png"/>
-      <h2>What is Appflow?</h2>
-      <p><b>Appflow</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new level of app development agility to mobile dev teams.</p>
-    </ion-slide>
-
-    <ion-slide>
-      <img src="./slide-4.png"/>
-      <h2>Ready to Play?</h2>
-      <ion-button fill="clear">Continue <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
-    </ion-slide>
+   
 
   </ion-slides>
 
@@ -94,6 +101,7 @@
       
         <ion-card-header>
           <ion-card-subtitle>123 Fox St.</ion-card-subtitle>
+          <ion-card-subtitle >Saturday 5pm</ion-card-subtitle>
           <ion-card-title>Russian Orthodox Christmas</ion-card-title>
         </ion-card-header>
         <ion-card-content>
@@ -103,22 +111,24 @@
     </ion-slide>
 
     <ion-slide>
-      <img src="./slide-2.png"/>
-      <h2>What is Ionic?</h2>
-      <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
+      <ion-card>
+       
+        <ion-card-header>
+          <div class="ion-justify-content-center">
+            <ion-img [src]="'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5nVyjis1GBHO9xrTP0xCsIGNWoDw1z_Bovg&usqp=CAU'"></ion-img>
+          </div>
+        
+          <ion-card-subtitle class="ion-margin-top">123 Street St.</ion-card-subtitle>
+          <ion-card-subtitle >Tuesday 4pm</ion-card-subtitle>
+          <ion-card-title>LGBTQ+ Pride</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Join us for a celebration of LGBTQ+ Pride! Everybody is welcome!
+        </ion-card-content>
+      </ion-card>
+     
     </ion-slide>
 
-    <ion-slide>
-      <img src="./slide-3.png"/>
-      <h2>What is Appflow?</h2>
-      <p><b>Appflow</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new level of app development agility to mobile dev teams.</p>
-    </ion-slide>
-
-    <ion-slide>
-      <img src="./slide-4.png"/>
-      <h2>Ready to Play?</h2>
-      <ion-button fill="clear">Continue <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
-    </ion-slide>
 
   </ion-slides>
 </ion-content>
